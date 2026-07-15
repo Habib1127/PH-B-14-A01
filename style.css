@@ -1,4 +1,4 @@
-/* basic work*/
+    /* basic work*/
 *{
     margin:0;
     padding:0;
@@ -11,7 +11,61 @@ body{
     color: #333;
 }
 
-/* banner work */
+     /*container*/
+.container {
+    max-width: 1200px;
+    margin: 0 170px;
+    padding: 0 20px;
+}
+
+    /* Navigation bar */
+.navbar  {
+     
+    padding: 20px 0;
+    background-color: white;
+    border-bottom: 1px solid #e2e8f0;
+}
+.nav-content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    margin-right: 200px;
+}
+
+    
+.menu {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    
+     
+    font-size: 20px;
+}
+
+
+
+   /* for big banner */
+.hero{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('assets/banner.jpg');    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 140px 0;
+    text-align: center;
+    color:white;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+} 
+
+    /* banner work */
 
 .banner {
     max-width: 800px;
@@ -21,8 +75,9 @@ body{
     
 }
 .banner h1{
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    margin: 20px;
+
 }
 .banner p{
     font-size: 18px;
@@ -31,7 +86,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* for buttons */
+    /* for buttons */
 .btn {
     text-decoration: none;
     display: inline-block;
@@ -46,15 +101,20 @@ body{
 .btn-primary {
     font-size: 16px;
     background-color: #2563eb;
-    color: #ffffff;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 70px;
 }
 
 .btn-primary:hover{
     background-color: black;
 }
 .btn-large{
-    font-size: 19px;
-    padding: 12px 20px;
+    font-size: 20px;
+    padding: 15px 34px;
+    border-radius: 8px;
+    margin-top: 350px;
+    margin-right: 80px;
 }
 .btn-outline {
     background-color: #ffffff;
@@ -67,42 +127,65 @@ body{
 .btn-outline:hover {
     background-color: #f8fafc;
 }
+     /* for speakers section */
+.speakers-section {
+    padding: 40px 0;
 
-
-/* Navigation bar */
-.navbar  {
-     
-    padding: 15px 0;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e2e8f0;
+   background-color: white;
 }
-.nav-content {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-    
-.menu {
-    text-decoration: none;
-    display: flex;
-    gap: 25px;
-    margin-right: 500px;
-     font-weight: 500;
-    font-size: 20px;
-}
-
-/* for big banner 
-.hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 100px 0;
+.section-title {
     text-align: center;
-    color: #ffffff;
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-} */
+    font-size: 36px;
+    margin: 40px;
+    font-weight: bold;
+}
+
+.speakers- card {
+    background-color:white;
+    border:1px slolid #e2e8f0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.speakers- card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+.speaker-info {
+    padding: 20px;
+}
+
+.tag{
+    display: inline-block;
+    background-color: white;
+    color: #2563eb;
+    padding: 4px ;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.speaker-info h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.speaker-info .role{
+    font-size: 20px;
+    color: #64748b;
+    
+}
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
