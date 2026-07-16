@@ -127,7 +127,8 @@ body{
 .btn-outline:hover {
     background-color: #f8fafc;
 }
-     /* for speakers section */
+   
+/* for speakers section */
 .speakers-section {
     padding: 40px 0;
 
@@ -145,6 +146,7 @@ body{
     border:1px slolid #e2e8f0;
     border-radius: 8px;
     overflow: hidden;
+     
 }
 
 .speakers- card img{
@@ -190,3 +192,133 @@ body{
     
 }
 
+/* pricinig section */
+
+.pricing-section{
+    padding: 60px 0;
+    background-color: #f8fafc;
+}
+
+.section-title{
+    margin: 20px 40px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+ .section-subtitle{
+    text-align: center;
+    font-size: 19px;
+ }
+
+ .pricing-grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+ }
+
+ .pricing-card{
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.5);
+ }
+
+ .plan-name{
+    font-size: 22px;
+    font-weight: 600;
+    color: #64748b;
+    margin-bottom: 10px;
+ }
+
+ .price{
+    font-size: 32px;
+    font-weight: 700;
+    margin-up: 10px;
+ }
+
+ .plan-detail{
+    font-size: 18px;
+    
+    margin-bottom: 20px;
+    display: block;
+ }
+
+ .card-divider{
+    height: 1px;
+    background-color: #798390;
+    margin: 20px 0;
+ }
+ .features{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+    flex-grow: 1;
+ }
+ .features-list {
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #334155;
+    margin-bottom: 12px;
+    line-height: 2; 
+ }
+
+ /*for pro card*/
+ .pro-card{
+    background-color: #0f172a;
+    color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.5);
+ }
+
+ .pro-list{
+    color: #e2e8f0;
+ }
+
+ /* Pricing button design */
+ .btn-pricing{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 0;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s ease;
+ 
+    background-color: transparent;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+ }
+
+ .btn-pricing:hover{
+    background-color: #2563eb;
+    color: white;
+    border: 2px solid #2563eb;
+ }
+
+ .btn-pro{
+    background-color: #2563eb;
+    color: white;
+    border: 2px solid #2563eb;
+ }
+
+ .btn-pro:hover{
+    background-color: #1d43d8;
+   
+ }
+
+ 
